@@ -1,0 +1,90 @@
+nav{
+    width: 1440px;
+    height: 188px;
+    top: 32px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+
+}
+
+.nav-top-section{
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-text{
+    font-size:32px;
+}
+
+.options-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: Hug (244px)px;
+    height: Hug (24px)px;
+    top: 46px;
+    left: 1100px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+
+.lang-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: Hug (52px)px;
+    height: Hug (16px)px;
+    gap: 5px;
+    opacity: 0px;
+
+}
+
+.logo-image{
+    width: 35.61px;
+    height: 35.66px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.tabs-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Hug (636px)px;
+    height: Hug (24px)px;
+    top: 140px;
+    left: 402px;
+    gap: 64px;
+    opacity: 0px;
+
+}
+
+.link-style{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:500px){
+    .side-bar{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:500px){
+        .tabs-container{
+            display: none;
+        }
+}

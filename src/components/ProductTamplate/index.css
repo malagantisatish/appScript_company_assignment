@@ -1,0 +1,23 @@
+.product-tamplate{
+    width:27%;
+    height:400px;
+    margin:10px;
+    box-sizing: content-box;
+    
+}
+
+.template{
+    height:250px;
+    width:250px;
+}
+
+.sign-like-block{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liked{
+    color:red;
+}

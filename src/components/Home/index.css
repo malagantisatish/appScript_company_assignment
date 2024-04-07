@@ -1,0 +1,26 @@
+
+.home-heading{
+    font-family: Simplon Norm;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.home-description{
+    font-family: Simplon Norm;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.products-list{
+    width:90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
